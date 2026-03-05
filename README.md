@@ -52,10 +52,9 @@ We use the default 'SpacetimeDB' channel.
 
 Once registered, we copy the 'AID' (autonomous identifier) using the copy button in the bottom left
 
-<!--
-<video src="./docs/creating-an-account.webm" autoplay loop muted width="600"></video>
--->
-![creating-an-account](creating-an-account.mp4)
+
+https://github.com/user-attachments/assets/2dbe532c-f648-47de-94e7-eebf9a8edd45
+
 
 ### Step 2: Run the client
 
@@ -79,10 +78,8 @@ SEED=my-stable-identity make dev
 SPACETIME_URL=ws://localhost:3010 make dev
 ```
 
-<!-- <video autoplay loop muted playsinline width="600">
-  <source src="./docs/approve-short.webm" type="video/webm">
-</video> -->
-![approve-short](./docs/approve-short.mp4)
+https://github.com/user-attachments/assets/54f18dd2-ca8c-4b41-9496-f5c3679bba61
+
 
 We could also run again to show rejection:
 
@@ -91,7 +88,5 @@ We could also run again to show rejection:
 
 As we use the same SEED, we'll see a second message
 
-<!-- <video autoplay loop muted playsinline width="600">
-  <source src="./docs/reject-short.webm" type="video/webm">
-</video> -->
-![reject-short](./docs/reject-short.mp4)
+
+https://github.com/user-attachments/assets/845edff3-eecd-4d56-891f-b5bb0fccf488
