@@ -1,0 +1,11 @@
+{
+  "name": "verify-standalone-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "dependencies": {
+    "@aaronp/kerits-verify": "^0.1.0"
+  }
+}
