@@ -77,8 +77,9 @@ SEED=my-stable-identity make dev
 SPACETIME_URL=ws://localhost:3010 make dev
 ```
 
-<video src="./docs/approve-short.webm" autoplay loop muted width="600"></video>
-
+<video autoplay loop muted playsinline width="600">
+  <source src="./docs/approve-short.webm" type="video/webm">
+</video>
 
 We could also run again to show rejection:
 
@@ -87,5 +88,7 @@ We could also run again to show rejection:
 
 As we use the same SEED, we'll see a second message
 
-<video src="./docs/reject-short.webm" autoplay loop muted width="600"></video>
+<video autoplay loop muted playsinline width="600">
+  <source src="./docs/reject-short.webm" type="video/webm">
+</video>
 
