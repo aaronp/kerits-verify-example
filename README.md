@@ -65,7 +65,26 @@ Note that during this sequence, I've gone back to [kerits.id](https://kerits.id)
 ![Approving](./docs/approved.svg)
 
 
-This is how our Makefile works:
+The delay from the client was the time it took for the authority to see and approve the request:
+
+https://github.com/user-attachments/assets/54f18dd2-ca8c-4b41-9496-f5c3679bba61
+
+
+We could also run again to show rejection:
+
+![Rejecting](./docs/rejected.svg)
+
+
+Since our client uses the same SEED, we'll see a second message from the same sender.
+(If we used a different SEED, we'd have a different identity, and the authority would see messages from different senders)
+
+
+
+https://github.com/user-attachments/assets/845edff3-eecd-4d56-891f-b5bb0fccf488
+
+
+
+Note: this is how the client Makefile usage:
 
 ```bash
 # install deps + run (random seed)
@@ -78,15 +97,3 @@ SEED=my-stable-identity make dev
 SPACETIME_URL=ws://localhost:3010 make dev
 ```
 
-https://github.com/user-attachments/assets/54f18dd2-ca8c-4b41-9496-f5c3679bba61
-
-
-We could also run again to show rejection:
-
-![Rejecting](./docs/rejected.svg)
-
-
-As we use the same SEED, we'll see a second message
-
-
-https://github.com/user-attachments/assets/845edff3-eecd-4d56-891f-b5bb0fccf488
